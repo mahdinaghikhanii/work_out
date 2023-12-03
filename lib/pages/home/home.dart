@@ -3,12 +3,11 @@ import 'package:flutter_svg/svg.dart';
 import 'package:work_out/common/constans/images.dart';
 import 'package:work_out/pages/home/widgets/silder.dart';
 
-import '../../data/entity/home_model.dart';
 import 'widgets/text_input.dart';
 import 'widgets/tranding_listview.dart';
 
-class HomeScrean extends StatelessWidget {
-  const HomeScrean({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -55,7 +54,11 @@ class HomeScrean extends StatelessWidget {
                 TextButton(
                   onPressed: () {},
                   child: const Text("See all",
-                      style: TextStyle(color: Color(0xFFE84479))),
+                      style: TextStyle(
+                        color: Color(0xFFE84479),
+                        decorationColor: Color(0xFFE84479),
+                        decoration: TextDecoration.underline,
+                      )),
                 )
               ],
             ),

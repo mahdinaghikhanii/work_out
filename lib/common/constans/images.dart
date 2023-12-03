@@ -11,4 +11,7 @@ class Images {
   static const String diss = '$basePathImages/diss.svg';
   static const String alarm = '$basePathImages/ala.png';
   static const String dumbbell = '$basePathImages/dumbbell.png';
+  static const String saveIcon = '$basePathImages/save_icon.svg';
+  static const String movieCrossFit = '$basePathImages/cross_fit.mp4';
+  static const String settingsIcon = '$basePathImages/settings.svg';
 }

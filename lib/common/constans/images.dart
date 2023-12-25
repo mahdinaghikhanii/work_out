@@ -14,4 +14,5 @@ class Images {
   static const String saveIcon = '$basePathImages/save_icon.svg';
   static const String movieCrossFit = '$basePathImages/cross_fit.mp4';
   static const String settingsIcon = '$basePathImages/settings.svg';
+  static const String splashImage = '$basePathImages/splash_img.png';
 }
